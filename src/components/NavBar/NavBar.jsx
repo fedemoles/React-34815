@@ -1,12 +1,12 @@
 import React from "react";
-import CartWidget from "./CartWidget";
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
 
 function NavBar() {
   return (
-    <nav>
-      <ul>
-      <li><a href="/"className="log">
+    <nav className="nav-index">
+      <ul className="nav-list">
+      <li><a href="/">
           <h2>GAMER PROPS</h2></a>
         </li>
         <li>
